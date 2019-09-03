@@ -15,6 +15,7 @@ controller.subirProducto = async (req, res) => {
    producto.name = req.body.name;
    producto.titulo = req.body.titulo;
    producto.descripcion = req.body.descripcion;
+   producto.categoria = req.body.categoria;
    producto.precio = req.body.precio;
 
    await producto.save();

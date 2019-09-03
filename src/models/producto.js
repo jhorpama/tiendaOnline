@@ -12,6 +12,7 @@ const producto = new Schema({
    filename: { type: String },
    size: { type: String },
    precio: { type: String },
+   categoria: { type: String },
    create_at: { type: Date, default: Date.now }
 });
 
